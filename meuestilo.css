@@ -1,0 +1,58 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+  font-size: 25px;
+  text-align: center;  
+}
+
+p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Criação de container para as entradas*/
+.container{
+    width: 500px;
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius:10px;
+}
+/* fim do container */
+
+.entrada{
+    margin-bottom: 15px;
+}
+
+label{
+    display: inline-block;
+    width: 230px;
+}
+
+/* Container para centralizar o botão horizontalmente no container pai */
+.btContainer{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+#btCalcular{
+    padding: 10px 20px;
+    background-color: blue;
+    color:bisque;
+    border: solid 1px blue; /* Reutilização de borda para evitar efeito de aumento de elemento */
+    border-radius: 5px; 
+    transition: 0.5;
+    margin: 10px auto;
+}
+
+
+#btCalcular:hover{
+    background-color: bisque;
+    border: solid 1px blue;
+    color:blue; 
+}
+
+
